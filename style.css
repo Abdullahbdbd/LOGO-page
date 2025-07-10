@@ -26,10 +26,10 @@ button {
   border: none;
   border-radius: 7px;
 }
-button:hover{
+button:hover {
   font-size: 16px;
   font-weight: 600;
-   background-color: rgba(8, 0, 255, 0.491);
+  background-color: rgba(8, 0, 255, 0.491);
 }
 
 /* header  */
@@ -75,102 +75,129 @@ nav h2 {
 }
 
 /* Main  */
-main{
+main {
   width: 1000px;
   margin: 0 auto;
   margin-top: 100px;
 }
-.action-container{
+.action-container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 200px;
 }
-.action-text h3{
-font-size: 42px;
-font-weight: 700;
-color: #252432;
+.action-text h3 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #252432;
 }
-.action-text p{
-font-size: 22px;
-color: #25243275;
-margin: 20px 0;
+.action-text p {
+  font-size: 22px;
+  color: #25243275;
+  margin: 20px 0;
 }
-.action-img img{
+.action-img img {
   border-radius: 48px;
 }
 
 /* Productive Users section  */
-.productive-users-section{
+.productive-users-section {
   width: 100%;
   text-align: center;
   background-color: #4d47ff1b;
   border-radius: 24px;
   margin-top: 120px;
 }
-.productive-users-container{
+.productive-users-container {
   padding: 50px 140px;
 }
-.productive-users-container h2{
+.productive-users-container h2 {
   font-size: 35px;
   font-weight: bold;
 }
-.productive-items{
+.productive-items {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
 }
-.user-item h2{
-font-size: 70px;
-color: rgba(78, 71, 255, 1);;
+.user-item h2 {
+  font-size: 70px;
+  color: rgba(78, 71, 255, 1);
 }
-.user-item p{
+.user-item p {
   font-size: 20px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.39);
 }
 
 /* User say section  */
-.users-say-section{
+.users-say-section {
   width: 100%;
   margin-top: 140px;
 }
-.users-say-section h2{
+.users-say-section h2 {
   font-size: 40px;
   font-weight: bold;
   text-align: center;
   margin-bottom: 50px;
 }
-.users-say-cards{
+.users-say-cards {
   display: flex;
   gap: 20px;
   justify-content: space-between;
 }
-.user-card{
+.user-card {
   padding: 24px 24px 12px;
   border-radius: 10px;
-   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.094);
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.094);
 }
-.user-card h4{
+.user-card h4 {
   font-size: 23px;
   font-weight: 600;
   color: rgba(30, 30, 30, 1);
   margin: 14px 0px 8px 0px;
 }
-.user-card p{
+.user-card p {
   font-size: 16px;
 }
-.user{
+.user {
   display: flex;
   gap: 15px;
   margin-top: 15px;
   align-items: center;
 }
-.user img{
+.user img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
 }
-.user-text p{
+.user-text p {
   margin: 4px 0;
+}
+
+/* focus section */
+.focus-section {
+  margin-top: 240px;
+  text-align: center;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.094);
+  border-radius: 10px;
+}
+.focus-container {
+  padding: 70px 0;
+}
+.focus-section h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+}
+.focus-section p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.457);
+  margin: 20px 0;
+}
+.focus-section button {
+  margin-bottom: 20px;
+}
+.focus-section img {
+  border-radius: 48px;
 }
