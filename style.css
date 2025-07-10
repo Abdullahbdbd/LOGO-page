@@ -28,6 +28,7 @@ button {
 }
 button:hover{
   font-size: 16px;
+  font-weight: 600;
    background-color: rgba(8, 0, 255, 0.491);
 }
 
@@ -125,6 +126,51 @@ color: rgba(78, 71, 255, 1);;
 }
 .user-item p{
   font-size: 20px;
-  font-weight: 500;
-  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.39);
+}
+
+/* User say section  */
+.users-say-section{
+  width: 100%;
+  margin-top: 140px;
+}
+.users-say-section h2{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.users-say-cards{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.user-card{
+  padding: 24px 24px 12px;
+  border-radius: 10px;
+   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.094);
+}
+.user-card h4{
+  font-size: 23px;
+  font-weight: 600;
+  color: rgba(30, 30, 30, 1);
+  margin: 14px 0px 8px 0px;
+}
+.user-card p{
+  font-size: 16px;
+}
+.user{
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  align-items: center;
+}
+.user img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.user-text p{
+  margin: 4px 0;
 }
